@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<body bgcolor="lightblue">
+
+    <h2 align="center">User Login</h2>
+
+    <form action="./Register" method="post">
+        <table align="center" cellpadding="8">
+            
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" name="username" required></td>
+            </tr>
+
+            <tr>
+                <td>Email ID:</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+
+            <tr>
+                <td>City:</td>
+                <td>
+                    <select name="city">
+                        <option>Delhi</option>
+                        <option>Mumbai</option>
+                        <option>Kolkata</option>
+                        <option>Chennai</option>
+                        <option>Bangalore</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+</html>
